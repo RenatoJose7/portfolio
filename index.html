@@ -9,15 +9,53 @@
 
     <!-- fonts -->
 
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100; 1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
+<header>
+    <section class="vidroHeader">
+        <a href="" >Inicio</a>
+        <a href="">Habilidades</a>
+        <a href="">Projetos</a>
+        <a href="">Certificações</a>
+        <a href="">Sobre mim</a>
+        <a href="">Contato</a>
+    </section>
+</header>
 <body>
-    
-    
+    <main>
+        <section class="hero">
+            <div class="textos">
+
+                <div class="titulo">
+                    <div class="primeiraLinha">
+                        <h1>Olá, eu sou o</h1><h1 id="nome">Renato José</h1>
+                    </div>
+                <h1>Desenvolvedor Front-end</h1>
+                </div>
+
+            <div class="subtitulo">
+                <p>  Estudante de Desenvolvimento de Sistemas, apaixonado por tecnologia e focado em evolução constante, com conhecimentos em lógica de programação e desenvolvimento de interfaces, além de experiência prática na criação de páginas web e soluções voltadas ao usuário; possuo perfil autodidata, facilidade em aprender novas ferramentas e linguagens e gosto de desafios que impulsionam meu crescimento técnico e pessoal; atualmente busco minha primeira oportunidade na área de tecnologia, com foco em desenvolvimento e na construção de um portfólio sólido, valorizando trabalho em equipe, dedicação e consistência para contribuir e evoluir junto com a empresa.</p>
+            </div>
+
+            <div class="botoes">
+                <button onclick="redirecionar()"><i class="fa-brands fa-linkedin-in" style="color: rgb(255, 255, 255) ;"></i></button>
+                <button onclick="whatszap()"><i class="fa-brands fa-whatsapp" style="color: rgb(255, 255, 255);"></i></button>
+                <button id="baixarCurriculo" onclick="baixar()"> <i class="fa-solid fa-download" style="color: rgb(255, 255, 255);"></i> Baixar Curriculo</button>
+            </div>
+            </div>
+            <div class="imagem">
+                <img src="imgs/fotoPortifolioo.png" alt="">
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <script src="script.js"></script> 
 </body>
 </html>
