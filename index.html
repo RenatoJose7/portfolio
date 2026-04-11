@@ -7,18 +7,37 @@
 
     <link rel="stylesheet" href="style.css">
 
+
+
+
     <!-- fonts -->
+
+
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100; 1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
+    <!-- favicon -->
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+
 </head>
 <header>
     <section class="vidroHeader">
         <a href="" >Inicio</a>
-        <a href="">Habilidades</a>
+        <a href="#habilidades">Habilidades</a>
         <a href="">Projetos</a>
         <a href="">Certificações</a>
         <a href="">Sobre mim</a>
@@ -32,13 +51,13 @@
 
                 <div class="titulo">
                     <div class="primeiraLinha">
-                        <h1>Olá, eu sou o</h1><h1 id="nome">Renato José</h1>
+                        <h1>Olá, eu sou o</h1><h1 class="nome">Renato José</h1>
                     </div>
                 <h1>Desenvolvedor Front-end</h1>
                 </div>
 
             <div class="subtitulo">
-                <p>  Estudante de Desenvolvimento de Sistemas, apaixonado por tecnologia e focado em evolução constante, com conhecimentos em lógica de programação e desenvolvimento de interfaces, além de experiência prática na criação de páginas web e soluções voltadas ao usuário; possuo perfil autodidata, facilidade em aprender novas ferramentas e linguagens e gosto de desafios que impulsionam meu crescimento técnico e pessoal; atualmente busco minha primeira oportunidade na área de tecnologia, com foco em desenvolvimento e na construção de um portfólio sólido, valorizando trabalho em equipe, dedicação e consistência para contribuir e evoluir junto com a empresa.</p>
+                <p>  Estudante de Desenvolvimento de Sistemas, apaixonado por tecno+.-logia e focado em evolução constante, com conhecimentos em lógica de programação e desenvolvimento de interfaces, além de experiência prática na criação de páginas web e soluções voltadas ao usuário; possuo perfil autodidata, facilidade em aprender novas ferramentas e linguagens e gosto de desafios que impulsionam meu crescimento técnico e pessoal; atualmente busco minha primeira oportunidade na área de tecnologia, com foco em desenvolvimento e na construção de um portfólio sólido, valorizando trabalho em equipe, dedicação e consistência para contribuir e evoluir junto com a empresa.</p>
             </div>
 
             <div class="botoes">
@@ -52,6 +71,75 @@
             </div>
         </section>
 
+        <section class="habilidades" id="habilidades">
+            <h1>Minhas </h1> <h1 class="nome"> Habilidades</h1>
+        </section>
+
+        <section class="blocos">
+
+            <div class="front">
+                <div class="tituloBloco">
+
+                    <div class="icone">
+                        <i class="fa-solid   fa-laptop-code" style="color: rgb(255, 255, 255);"></i>
+                    </div> 
+
+                     <div class="tituloTexto">
+                        <h3>Front-end </h3>
+                    </div>
+
+                </div>
+
+                <div class="topicos">
+                    <div class="topico">
+                        <i class="fa-brands fa-html5 " style="color: #E44D26;"></i>
+                        <p class="tituloHmtl">HTML</p>
+                    </div>
+                    <div class="topico">
+                        <i class="fa-brands fa-css3-alt" style="color: #1572B6;"></i>
+                        <p class="tituloCss">CSS</p>
+                    </div>
+                    <div class="topico">
+                        <i class="fa-brands fa-js" style="color: #F7DF1E;"></i>
+                        <p class="tituloJs">JavaScript</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="back">
+                <div class="tituloBloco">
+
+                    <div class="icone">
+                        <i class="fa-solid   fa-server" style="color: rgb(255, 255, 255);"></i>
+                    </div> 
+
+                     <div class="tituloTexto">
+                        <h3>Back-end </h3>
+                    </div>
+
+                </div>
+
+                <div class="topicos">
+                    <div class="topico">
+                        <i class="fa-brands fa-node-js" style="color: #339933;"></i>
+                        <p class="tituloTexto">Node.js</p>   
+                    </div>
+                    <div class="topico">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+                             <rect width="100%" height="100%" fill="#ffffff"/>
+  
+                            <path fill="#212121" d="M23.697,37.56h1.18c0.84,0,1.631-0.392,2.139-1.061l7.485-9.847l7.485,9.847	c0.508,0.668,1.299,1.061,2.139,1.061h1.18L35.756,25l9.121-12h-1.18c-0.84,0-1.631,0.392-2.139,1.061L34.5,23.347l-7.059-9.287	C26.933,13.392,26.142,13,25.302,13h-1.18l9.121,12L23.697,37.56z"></path>
+  
+                            <path fill="#212121" d="M24,26v-3c0-6.675-5.945-11.961-12.829-10.852C5.812,13.011,2,17.857,2,23.284L2,24v2v0.142	c0,6.553,4.777,11.786,10.868,11.858c5.092,0.06,9.389-3.344,10.707-7.999h-1.028c-0.62,0-1.182,0.355-1.451,0.913	c-1.739,3.595-5.789,5.862-10.228,4.842C6.776,34.815,4,30.981,4,26.783V26H24z M4,23.71c0-4.708,2.804-8.557,6.924-9.478	C16.798,12.92,22,17.352,22,23v1H4V23.71z"></path>
+                        </svg>
+
+                        <p class="tituloTexto">Express</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bd"></div>
+            <div class="ferramentas"></div>
+        
     </main>
 
 
