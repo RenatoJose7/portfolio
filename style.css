@@ -8,6 +8,7 @@ html {
 }
 
 body{
+  font-family: 'Poppins', sans-serif;
   background-image:
   url(imgs/fundo.svg),
    linear-gradient(to right, #151414, #101010);
