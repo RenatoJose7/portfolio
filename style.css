@@ -182,10 +182,10 @@ button i {
 
 }
 
-.front, .back, .bd, .ferramentas{
+.front, .back, .bd, .ferramentas, .mobile{
 
 box-sizing: border-box;
-width: 90%;
+width: 600px;
 height: 354px;
 
 
@@ -245,7 +245,8 @@ h3{
 .front::before, 
 .back::before, 
 .bd::before, 
-.ferramentas::before {
+.ferramentas::before,
+.mobile::before {
   content: "";
   position: absolute;
 
@@ -271,7 +272,8 @@ h3{
 .front:hover::before, 
 .back:hover::before, 
 .bd:hover::before, 
-.ferramentas:hover::before {
+.ferramentas:hover::before,
+.mobile:hover::before {
   left: 120%;
 
 }
@@ -292,11 +294,13 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 
+transition: 0.5s;
 
 }
 
 .topico i{
-  font-size: 50px;
+  font-size: 42px;
+  margin: 10px;
 }
 .blocos p{
   font-family: poppins;
@@ -306,6 +310,9 @@ align-items: center;
 .topico:hover{
   transform: scale(1.03);
 }
+.topico img{
+  width: 80px;
+}
 .topicos{
   display: flex;
   margin: 30px;
@@ -313,7 +320,13 @@ align-items: center;
 }
 
 .icone-img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   object-fit: contain;
+  border-radius: 0;
+}
+
+.mobile{
+  grid-column: span 2; 
+  justify-self: center;
 }
