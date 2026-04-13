@@ -10,7 +10,7 @@ html {
 body{
   font-family: 'Poppins', sans-serif;
   background-image:
-  url(imgs/fundo.svg),
+  url(imgs/fundo\ \(2\).png),
    linear-gradient(to right, #151414, #101010);
    background-position: auto;
    background-repeat: none;
@@ -338,13 +338,14 @@ transition: 0.5s;
   gap: 15px;
   justify-content: center;
   margin-top: 80px;
+  margin-bottom: 56px;
 }
 
 .caixa{
 
 box-sizing: border-box;
 
-width: 400px;
+width: auto;
 height: auto;
 
 
@@ -361,10 +362,10 @@ margin: 2.5%;
 padding: 20px;
 }
 
-.html{
-  width: 80px;
-  height: 30px;
-  background-color: #F38020;
+.html, .css, .js, .cloudflare, .react, .node{
+  width: 50px;
+  height: 25px;
+  background-color: #E44D26;
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -372,18 +373,36 @@ padding: 20px;
   color: #101010;
   font-family: poppins;
   font-weight: 600;
-   margin: 8px 0px;
+   margin: 8px 0px 0px;
+   font-size: 12px;
+}
+.react{
+  background-color:  rgba(97, 218, 251, 1);
+}
+.node{
+  background-color: #339933;
+}
+.css{
+  background-color: #1572B6;
+}
+.js{
+  background-color: #F7DF1E;
+}
+.cloudflare{
+  background-color: #F38020;
 }
 .caixa img{
-  width: 0100%;
-  height: 200px;
+  width: 100%;
+  height: auto;
   border-radius: 0px;
- 
+ object-fit: contain;
 }
 .nomeProjeto{
   color: white;
   font-size: 24px;
   font-weight: 600;
+  line-height: 20px;
+  margin: 15px 0px 0px;
 
 }
 .subtituloProjeto{
@@ -434,4 +453,14 @@ transition: 0.3s;
 }
 .saibaMais:hover::before{
   left: 120%;
+}
+.tag{
+  display: flex;
+  gap: 5px;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
