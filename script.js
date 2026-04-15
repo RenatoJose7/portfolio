@@ -14,3 +14,8 @@ const linkedin = "https://www.linkedin.com/in/renato-jose";
         link.download = "RenatoCurriculo.pdf";
         link.click();
   }
+
+  const portifolioo = "https://portfolio-cp7.pages.dev/"
+  function portifolio(){
+    window.open(portifolioo, "_blank")
+  }
